@@ -1,0 +1,151 @@
+h1 {
+  font-size: 12pt;
+}
+
+body {
+  font-size: 16px;
+}
+
+.page-title {
+  font-size: 3em;
+}
+/* HEADER */
+
+.my-page {
+  align-content: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  font: normal 400 14px/40px brandon_grotesque_, arial, sans-serif;
+  padding: 10px;
+  color: #111;
+}
+
+.about-me-intro {
+  align-content: center;
+  display: grid;
+  gap: 10px;
+  font: normal 700 14px/40px brandon_grotesque_, arial, sans-serif;
+  padding: 10px;
+  color: #111;
+}
+.protfolio-page {
+  align-content: center;
+  font: normal 700 14px/40px brandon_grotesque_, arial, sans-serif;
+  color: #111;
+}
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: 700;
+}
+
+button {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  border-radius: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+@font-face {
+  font-family: brandon_grotesque;
+  src: url(https://use.typekit.net/af/165ee7/00000000000000003b9ada52/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3)
+    format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: brandon_grotesque;
+  src: url(https://use.typekit.net/af/165ee7/00000000000000003b9ada52/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3)
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: brandon_grotesque;
+  src: url(https://use.typekit.net/af/165ee7/00000000000000003b9ada52/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3)
+    format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: brandon_grotesque;
+  src: url(https://use.typekit.net/af/165ee7/00000000000000003b9ada52/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3)
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: funkydori;
+  src: url(https://use.typekit.net/af/bfd20d/00000000000000003b9ada51/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3)
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* PROJECTS */
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  font: normal 400 14px/40px brandon_grotesque_, arial, sans-serif;
+}
+
+.project {
+  padding: 20px;
+  border: 1px solid transparent;
+  color: fff;
+  background-color: #fff;
+  border-color: #111;
+  border-radius: 0;
+  font: normal 400 14px/40px brandon_grotesque_, arial, sans-serif;
+}
+
+/* BUTTONS */
+.button {
+  display: inline-block;
+  white-space: nowrap;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0 20px;
+  border: 1px solid transparent;
+  color: #111;
+  text-transform: uppercase;
+  background-color: #111;
+  border-color: #111;
+  border-radius: 0;
+  font: normal 400 14px/40px brandon_grotesque_, arial, sans-serif;
+  vertical-align: middle;
+  background: 0 0;
+}
+/* tablet or larger */
+@media (min-width: 426px) {
+  .about-me-intro {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .projects {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Desktop or larger */
+@media (min-width: 769px) {
+  .about-me-intro {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .projects {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
